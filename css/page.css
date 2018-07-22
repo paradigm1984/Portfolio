@@ -1,0 +1,147 @@
+/*
+  Theme Name: Portfolio
+  Author: Daniel Blanco
+  Version: 1.0
+*/
+
+/*
+font-family: 'Cabin', sans-serif;
+yellow: #FFC950
+red: #FF5252
+light red: #ff6666
+click red: #ff4d4d
+light cream: #fffdf6
+link hover gray: #737373
+text gray: #595959
+accent gray: #a6a6a6
+click gray: #f2f2f2
+img gray: #737373
+*/
+
+
+.page-container {
+  background-color: #fffdf6;
+  color: #595959;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-title {
+  display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.accent-line-about {
+	height: 1.5px;
+	width: 100%;
+  max-width: 450px;
+	margin: 2.3% 1% 0 1%;
+	background-color: #a6a6a6;
+}
+
+.about-header {
+  margin-top: 3%;
+  text-align: center;
+}
+
+.about-container {
+  background-color: #fffdf6;
+  width: 100%;
+  padding: 2% 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* class comes from wordpress */
+.wp-image-12 {
+  border-radius: 5px;
+  box-shadow: -7px 7px 0px 2px #fffdf6;
+
+}
+
+.about-text {
+  padding: 2.5%;
+  margin: 1% auto 6% auto;
+  text-align: justify;
+  /* width: auto; */
+  display: flex;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.3);
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.about-text div {
+  width: 100%;
+  max-width: 500px;
+  margin-left: 5%;
+}
+
+.about-skills {
+  padding: 5% 1%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #FF5252;
+  color: #fffdf6;
+
+}
+
+.skill-list-container {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: space-between;
+  border-radius: 5px;
+  padding: 2% 1%;
+  background-color: #fffdf6;
+  color: #595959;
+  margin: 0 2%;
+  min-width: 300px;
+  width: 33%;
+  max-height: 340px;
+}
+
+
+.skill-list-container h3 {
+  text-align: center;
+}
+
+.skill-list {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.list-container {
+  width: 50%;
+}
+
+.list-container  h5 {
+  margin-bottom: 3%;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.ul-flex {
+  display: flex;
+  justify-content: center;
+}
+
+.ul-flex li {
+  list-style: disc;
+  font-size: 1.1em;
+  margin-left: 19px;
+}
+
+.inner-list {
+  list-style: circle !important;
+  margin-left: 39px;
+}
